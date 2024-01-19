@@ -1,2 +1,0 @@
-i = input("Enter the value")
-print(I+I)
