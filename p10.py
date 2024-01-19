@@ -1,4 +1,4 @@
-coke_price = 50
+coke_price = 70
 total_amount_received = 0
 Amount_Due = 0
 Change_Owed = 0
