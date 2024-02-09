@@ -2,22 +2,22 @@ from twttr import shorten
 
 
 def main():
-    test_letter_cases()
-    test_numbers()
-    test_punctuation()
+    test_letter()
+    test_num()
+    test_punc()
 
 
-def test_letter_cases():
+def test_letter():
     assert shorten("apple") == "ppl"
     assert shorten("BANANA") == "BNN"
     assert shorten("OrAnGe") == "rnG"
 
 
-def test_numbers():
+def test_num():
     assert shorten("1234") == "1234"
 
 
-def test_punctuation():
+def test_punc():
     assert shorten("!?.,") == "!?.,"
 
 

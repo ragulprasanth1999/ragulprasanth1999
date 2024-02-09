@@ -1,15 +1,15 @@
 def main():
-    message = input("Input: ")
-    message_without_vowels = shorten(message)
-    print("Output: " + message_without_vowels)
+    i = input("Input: ")
+    without_vowels = shorten(i)
+    print("Output: " + without_vowels)
 
 
 def shorten(word):
-    word_without_vowels = ""
+    wwv = ""
     for letter in word:
         if not letter.lower() in ['a', 'e', 'i', 'o', 'u']:
-            word_without_vowels += letter
-    return word_without_vowels
+            wwv += letter
+    return wwv
 
 
 if __name__ == "__main__":
