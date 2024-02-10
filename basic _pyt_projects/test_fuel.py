@@ -1,5 +1,5 @@
 from fuel import convert, gauge
-import pytest
+import pytest as py
 
 
 def main():
@@ -9,12 +9,12 @@ def main():
 
 
 def test_zerodivision():
-    with pytest.raises(ZeroDivisionError):
+    with py.raises(ZeroDivisionError):
         convert('1/0')
 
 
 def test_value_error():
-    with pytest.raises(ValueError):
+    with py.raises(ValueError):
         convert("cat/dog")
 
 
