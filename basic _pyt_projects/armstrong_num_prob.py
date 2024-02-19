@@ -3,9 +3,11 @@ def Armstrong_number(n):
     po = len(s)
     ls = []
     for i in s:
-        ls.append(int(i)**po)
+        ls.append(int(i) ** po)
     if sum(ls) == n:
         print("true")
-    else :
+    else:
         print("false")
+
+
 Armstrong_number(1634)
