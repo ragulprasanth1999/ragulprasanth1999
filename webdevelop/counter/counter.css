@@ -1,0 +1,25 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#buttons{
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: beige;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroundcolor-0.25;
+}
+.buttons:hover{
+    background-color: aqua;
+
+}
